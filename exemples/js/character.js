@@ -1,29 +1,60 @@
-function Character(name) {
-  this.name = name
-  this.health = 50
-  this.strength = 10
-  this.mana = 50
-  this.exp = 0
-}
+let Character = {
+  name: '',
+  health: 50,
+  strength: 10,
+  mana: 50,
+  exp: 0,
 
-Character.prototype.status = function() {
-  return "Status de " + this.name + ": " + this.health + " points de vie, " + this.strength + " points de force, " + this.mana + " points de mana et " + this.exp + " points d'exp"
-}
+  status () {
+    return `Status de ${this.name}: ${this.health} points de vie, ${this.strength} points de force, ${this.mana} points de mana et ${this.exp} points d'exp`
+  },
 
-Character.prototype.treat = function(character) {
-  character.health += 10
-  if (character == this) {
-    return this.name + " s'est soigné de 10 points de vie"
-  } else {
-    return this.name + " a soigné " + character.name + " de 10 points de vie"
-  }
-}
+  treat (target, care = 10) {
+    target.health += care
+    if (target == this) {
+      return `${this.name} s'est soigné de ${care} points de vie`
+    } else {
+      return `${this.name} a soigné ${target.name} de ${care} points de vie`
+    }
+  },
 
-Character.prototype.attack = function(character) {
-  character.health -= this.strength
-  if (character == this) {
-    return this.name + " s'est infligé " + this.strength + " points de dégats"
-  } else {
-    return this.name + " a infligé " + this.strength  + " points de dégats à " + character.name
+  attack (target, damage = this.strength) {
+    let endMessage = ''
+    endMessage = target.lostHP(damage)
+    if (endMessage == true) {
+      if (target == this) {
+        endMessage = `${this.name} s'est infligé ${damage} points de dégats`
+      } else {
+        endMessage = `${this.name} a infligé ${damage} points de dégats à ${target.name}`
+      }
+    } else {
+      endMessage = `${this.name} a infligé ${damage} points de dégats à ${target.name} et ${endMessage}`
+    }
+    return endMessage
+  },
+
+  lostHP (num) {
+    this.health -= num
+    if (this.health <= 0) {
+      this.health = 0
+      return `${this.name} est mort...`
+    } else {
+      return true
+    }
+  },
+
+  lostMana (num) {
+    if (this.mana <= 0) {
+      this.mana = 0
+      return `${this.name} n'a plus de mana`
+    } else {
+      if (this.mana >= num)
+      {
+        this.mana -= num
+        return true
+      } else {
+        return `${this.name} n'a pas assez de mana`
+      }
+    }
   }
 }
