@@ -12,4 +12,4 @@ SI-T1a
 
 [Le JavaScript orienté objet pour débutants](https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/JS_orient%C3%A9-objet)
 
-[Construction d'un héritage réaliste](http://geotribu.net/node/30)
+[Onze idées fausses sur l'héritage en JavaScript](http://sylvainpv.developpez.com/traductions/javascript/idees-fausses-heritage/)
