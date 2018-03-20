@@ -3,10 +3,9 @@ let Character = {
   health: 50,
   strength: 10,
   mana: 50,
-  exp: 0,
 
   status () {
-    return `Status de ${this.name}: ${this.health} points de vie, ${this.strength} points de force, ${this.mana} points de mana et ${this.exp} points d'exp`
+    return `Status de ${this.name}: ${this.health} points de vie, ${this.strength} points de force, ${this.mana} points de mana`
   },
 
   treat (target, care = 10) {
