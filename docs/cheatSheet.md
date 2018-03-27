@@ -10,7 +10,7 @@ SI-T1a
 
 ### Introduction
 
-Il existe plusieurs façon de créer des objets en JavaScript. Dans cette cheat sheet, une seul façon sera utilisé. Vous pouvez trouvez les autres façons dans les documents se trouvant dans le document [sources.md](https://github.com/BenjaminDelacombaz/JSOO/blob/master/docs/sources.md).
+Il existe plusieurs façons de créer des objets en JavaScript. Dans cette cheat sheet, une seule façon sera utilisée. Vous pouvez trouver les autres façons dans les documents se trouvant dans le document [sources.md](https://github.com/BenjaminDelacombaz/JSOO/blob/master/docs/sources.md).
 
 ### Créer un objet
 

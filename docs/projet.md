@@ -14,8 +14,8 @@
 
 ## Livrables
 
-* Exercice (max 3 périodes)
-* Eléments théoriques (documentations online, doc perso)
+* Exercice (Max 3 périodes)
+* Eléments théoriques (Documentations online, doc perso)
 
 ### Document
 
