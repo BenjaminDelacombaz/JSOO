@@ -8,7 +8,7 @@
     * OAuth
     * Jwt
 * JQuery ++
-* Javascript ++ <-
+* __Javascript ++__
 * Local DB
 * Temps réel
 
