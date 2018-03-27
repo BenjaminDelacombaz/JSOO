@@ -21,3 +21,7 @@ SI-T1a
 [Introduction à JavaScript orienté objet](https://developer.mozilla.org/fr/docs/Web/JavaScript/Introduction_%C3%A0_JavaScript_orient%C3%A9_objet)
 
 [Onze idées fausses sur l'héritage en JavaScript](http://sylvainpv.developpez.com/traductions/javascript/idees-fausses-heritage/)
+
+[Programmation orientée objet en JavaScript](https://buzut.fr/programmation-orientee-objet-javascript/)
+
+[Apprenez à coder avec JavaScript: Trop classe, la POO !](https://openclassrooms.com/courses/apprenez-a-coder-avec-javascript/trop-classe-la-poo)
