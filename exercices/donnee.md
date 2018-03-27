@@ -8,7 +8,11 @@ SI-T1a
 
 ## Pré-requis
 
-Lire la documentation se trouvant dans le fichier /docs/sources.md
+Lire la documentation se trouvant dans le fichier [../docs/sources.md](https://github.com/BenjaminDelacombaz/JSOO/blob/master/docs/sources.md)
+
+Il n'est pas nécessaire de lire __toute__ la documentation pour pouvoir faire cet exercice. La cheat sheet qui se trouve dans le document [../docs/cheatSheet.md](https://github.com/BenjaminDelacombaz/JSOO/blob/master/docs/cheatSheet.md) doit normalement subvenir aux besoins de l'exercice.
+
+Si vous avez terminé l'exercice plus rapidement, je vous conseille quand même de lire la documentation.
 
 ## Objectifs
 
