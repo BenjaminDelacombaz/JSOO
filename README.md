@@ -13,9 +13,11 @@ Les réferences se trouvent dans le document suivant: [docs/sources.md](https://
 
 Vous pouvez trouver une ''cheatSheet'' dans le document suivant: [docs/cheatSheet.md](https://github.com/BenjaminDelacombaz/JSOO/blob/master/docs/cheatSheet.md)
 
+Un exemple de l'utilisation du JavaScript orienté objet est disponible dans le répertoire suivant: [exemples/](https://github.com/BenjaminDelacombaz/JSOO/tree/master/exemples)
+
 ## Exercice
 
-
+La donnée de l'exercice se trouve dans le document suivant: [exemples/donnee.md](https://github.com/BenjaminDelacombaz/JSOO/tree/master/exercices/donnee.md)
 
 ## Résumé
 
